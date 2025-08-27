@@ -1,0 +1,60 @@
+
+.card-button {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2rem 1.5rem;
+  margin: 1rem;
+  width: 260px;
+  height: 320px;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s, background 0.3s, border-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #e0e0e0;
+  justify-content: center;
+}
+.card-button:hover, .card-button:focus {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.16);
+  transform: translateY(-4px) scale(1.03);
+  border-color: #7c3aed;
+  background: linear-gradient(135deg, #7c3aed 0%, #f472b6 100%);
+}
+.card-button:hover .card-title, .card-button:focus .card-title {
+  color: #fff;
+}
+.card-button:hover .card-desc, .card-button:focus .card-desc {
+  color: #f3f3f3;
+}
+.card-button:hover .card-icon, .card-button:focus .card-icon {
+  color: #fff;
+}
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0.5rem 0 0.2rem 0;
+  color: #7c3aed;
+  transition: color 0.3s;
+}
+.card-desc {
+  font-size: 1rem;
+  color: #444;
+  text-align: center;
+  transition: color 0.3s;
+}
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #7c3aed;
+  transition: color 0.3s;
+}
+
+/* Media query para acomodar las cards en columna en pantallas pequeñas */
+@media (max-width: 600px) {
+  .cards-container {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    align-items: center !important;
+  }
+}
