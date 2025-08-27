@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Comandos git para actualizar y subir en PowerShell
+
+# guardar cambios 
+# git add . ; git commit -m "Cambios actualizados"
+
+
+# subir cambios
+# git pull origin main --rebase ; git push origin main
+
+
