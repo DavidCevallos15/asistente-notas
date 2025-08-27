@@ -1,12 +1,21 @@
-# React + Vite
+# PlanUTM – Asistente Estudiantil
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PlanUTM es una aplicación web diseñada para estudiantes de la Universidad Técnica de Manabí, que permite calcular promedios, analizar notas y organizar horarios de clases de forma rápida y sencilla.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ingresar y analizar notas de manera rápida y ordenada.
+- Calcular promedios ponderados de ambos ciclos académicos.
+- Determinar calificación mínima necesaria en exámenes supletorios para aprobar.
+- Área de texto para pegar notas desordenadas y analizarlas automáticamente.
+- Soporte para modo nocturno (dark mode) y diseño responsivo.
+- Próxima funcionalidad: organizar horarios a partir de PDFs de SGA UTM.
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, Vite
+- **Estilos:** TailwindCSS, PostCSS, Autoprefixer
+- **Control de versiones:** Git y GitHub
+- **Editor recomendado:** Visual Studio Code
+- **Lenguajes:** JavaScript, HTML, CSS
+
