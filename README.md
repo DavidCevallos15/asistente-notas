@@ -1,3 +1,5 @@
+![Captura de PlanUTM](src/assets/capturaHome.png)
+
 # PlanUTM – Asistente Estudiantil
 
 PlanUTM es una aplicación web diseñada para estudiantes de la Universidad Técnica de Manabí, que permite calcular promedios, analizar notas y organizar horarios de clases de forma rápida y sencilla.
